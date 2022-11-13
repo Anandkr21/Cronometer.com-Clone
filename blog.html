@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg" type="image/icon type">
+
+    <title>The Truecaare Blog </title>
+
+    <style>
+
+.contact-section {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-content: center;
+    margin-bottom: 30px;
+   }
+   .left-section {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+   }
+
+   a{
+    text-decoration: none;
+   }
+   .right-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 50px;
+   
+   }
+   .right-section>p{
+     color: #283338;;
+     cursor: pointer;
+     /* border: 2px solid red; */
+   }
+   .right-section>p>a:hover{
+    color: #ff763f;
+   }
+   .left-section>a>img{
+     width: 400px;
+     height: 200px;
+     margin-top: -30px;
+     cursor: pointer;
+   }
+   .right-section>button{
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ff763f;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    margin-top: 18px;
+    color: #ff763f;
+    /* border: 2px solid green; */
+   }
+   
+   .right-section>button>a{
+    color: orange;
+   }
+   .right-section>button:hover{
+     background-color: rgb(250, 240, 246);
+     
+   }
+
+        .back{
+            background-color:  #ff763f;
+            width: 100%;
+            height: 300px;
+            margin-top: 60px;
+ 
+        }
+        .b2  {
+            color: #fff;
+    font-weight: 700;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 2.74em;
+    line-height: 1.25em;
+    text-align: center;
+        }
+        
+      
+        h5{
+            font-family: "Open Sans",Sans-serif;
+    font-size: 1.41em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+
+        }
+
+        .tricks{
+            width: 100%;
+            height: 550px;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            margin: auto;
+        }
+        .tricks>.f>h2{
+            color: #404040;
+            font-family: "Open Sans",Sans-serif;
+              font-size: 50px;
+              font-weight: 700;
+           line-height: 1.2em;
+        }
+
+        .f{
+            width: 60%;
+            height: 400px;
+            /* border: 2px solid green; */
+        }
+        .tricks>.s{
+            width: 40%;
+            height: 400px;
+            /* border: 3px solid  black;     */
+            margin: right;
+        }
+        .span{
+            color: #ff763f;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+        }
+        .f>p{
+            color: #404040;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+        }
+
+        .s>img{
+            width: 80%;
+            height: 400px;
+        }
+
+        button{
+            padding: 10px 40px;
+            background-color: #ff763f;
+            color: white;
+            font-size: 19px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .improve{
+            width: 100%;
+            height: 300px;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #h  {
+            color: #404040;
+    font-weight: 700;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 2.74em;
+    line-height: 1.25em;
+    text-align: center;
+        }
+        #p{
+            color: #404040;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+        }
+        .improve>.right>img{
+            width: 600px;
+            height: 600px;
+        }
+
+         /* new footer  */
+  .main-footer{
+  margin-top: 150px;
+  width: 100%;
+  height: 680px;
+  border: 1px solid #4f4e53;
+  background-color: #4f4e53;
+}
+.main-footer>.f-icon{
+  margin-top: 50px;
+  width: 100%;
+  height: 40px;
+  /* border: 2px solid black; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#o,#n,#e,#s{
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid red; */
+}
+#o,#n,#e,#s:hover{
+  cursor: pointer;
+}
+
+.f-logo{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.f-logo>img{
+  width: 200px;
+  height: 90px;
+}
+.f-logo>img:hover{
+  cursor: pointer;
+}
+#f-hr{
+  margin-top: 50px;
+
+}
+  
+       /* bottom fotter  */
+
+       .bottom-fotter{
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
+  height: 250px;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.footer-logo>img{
+width: 450px;
+height: 100px;
+/* border: 2px solid red; */
+margin-left: -69px;
+}
+
+.first,.second,.third{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  
+}
+
+.first>ul>li{
+list-style-type: none;  
+font-size: 17px;
+  /* border: 2px solid red; */
+  height: 40px;
+}
+.second>ul>li{
+  list-style-type: none;  
+  font-size: 17px;
+    /* border: 2px solid red; */
+    height: 40px;
+  }
+.third>ul>li{
+  list-style-type: none;  
+  font-size: 17px;
+    /* border: 2px solid red; */
+    height: 40px;
+  }
+  .first>ul>li>a:hover{
+    cursor: pointer;
+    color: #ff763f;
+  }
+  .second>ul>li>a:hover{
+    cursor: pointer;
+    color: #ff763f;;
+  }
+  .third>ul>li>a:hover{
+    cursor: pointer;
+    color: #ff763f;;
+  }
+
+    .bottom{
+     
+      width: 90%;
+      margin: auto;
+      height: 100px;
+      /* border: 2px solid red; */
+      text-align: center;
+    }
+    .bottom>p{
+      margin-top: 60px;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="contact-section">
+        <div class="left-section">
+          <a href="index.html"><img src="care.gif" alt=""></a>
+        </div>
+        <div class="right-section">
+          <p><a href="">Products</a></p>
+          <p><a href="support.html">Support</a> </p>
+          <p><a href="">Blog</a></p>
+          <p><a href="">Forum</a></p>
+          <p><a href="about.html">About</a></p>
+          <button><a href="login.html" target="_blank">Log In</a></button>
+         </div>
+       </div>
+
+       <!-- Second Part -->
+    <div class="back">
+        <h2 class="b2">The Truecare Blog</h2>
+        <h5>App updates Nutrition Tips & Inspiration</h5>
+    </div>
+    <div class="backp">
+        <img src="backpic.png" alt="">
+    </div>
+    <div class="tricks">
+        <div class="f">
+            <span class="span">Crono Hacks</span>
+            <h2 class="h2">Cronometer Tips & <br> Tricks</h2>
+            <p>Whether you’re a new or longtime user, here are some helpful tips to make  <br> 
+                the most of your nutrition tracking.</p>
+                <button>Get the Tips</button>
+        </div>
+        <div class="s">
+            <img src="https://cronometer.com/blog/wp-content/uploads/2019/08/cronometer-starter.png" alt="">
+        </div>
+    </div>
+
+    <div class="improve">
+        <div class="right">
+            <img src="https://cronometer.com/blog/wp-content/uploads/2021/12/140642741_l-768x768.jpg" alt="">
+        </div>
+        <div class="left">
+            <h2 id="h">New & Improved: The Latest Updates</h2>
+            <p id="p">Get up to date on all of the latest Cronometer updates, <br>
+                 including cool new features like our Recipe Importer or <br>
+                  Target Scheduler!  </p>
+                  <button>Read More</button>
+
+        </div>
+       
+    </div>
+
+      <!-- Footer bar -->
+
+      <div class="main-footer">
+        <div class="f-icon">
+          <img id="o" src="https://cdn1.cronometer.com/2021/landing/social_instagram-icon.png" alt="">
+          <img id="n" src="https://cdn1.cronometer.com/2021/landing/social_facebook-icon.png" alt="">
+          <img id="e" src="https://cdn1.cronometer.com/2021/landing/social_twitter-icon.png" alt="">
+          <img id="s" src="https://cdn1.cronometer.com/2021/landing/social_youtube-icon.png" alt="">
+        </div>
+        <div class="f-logo">
+          <img src="https://cdn1.cronometer.com/2021/landing/ios-icon.svg" alt="">
+          <img src="https://cdn1.cronometer.com/2021/landing/android-icon.svg" alt="">
+        </div>
+        <hr id="f-hr">
+
+         <!-- bottom-fotter -->
+  
+  <div class="bottom-fotter">
+    <div class="footer-logo">
+      <img src="grey.png" alt="">
+    </div>
+    <div class="first">
+      <ul>
+        <li><strong>Truecare</strong></li>
+        <li><a>For Individuals</a></li>
+        <li><a>For professionals</a></li>
+        <li><a>Privacy</a></li>
+        <li><a>Terms</a></li>
+      </ul>
+    </div>
+    <div class="second">
+      <ul>
+        <li><strong>The Company</strong></li>
+        <li><a>About Us</a></li>
+        <li><a >Crono Blog</a></li>
+        <li><a>Crono Forum</a></li>
+        <li><a>Jobs</a></li>
+        <li><a>Support</a></li>
+      </ul>
+    </div>
+    <div class="third">
+      <ul>
+        <li><strong>Partners & Affiliates</strong></li>
+        <li><a>Affilate Program</a></li>
+        <li><a>Media Kit</a></li>
+      </ul>
+    </div>
+  </div>
+    <div class="bottom">
+      <p>Copyright © 2011-2022 <br>
+        All rights reserved</p>
+      </div>
+      </div>
+</body>
+</html>

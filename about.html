@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg" type="image/icon type">
+
+    <title>Truecare : About us</title>
+    <style>
+        .contact-section {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    align-content: center;
+    margin-bottom: 30px;
+   }
+   .left-section {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+   }
+
+   a{
+    text-decoration: none;
+   }
+   .right-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 50px;
+   
+   }
+      .left-section>a>img{
+     width: 250px;
+     height: 60px;
+     margin-top: 30px;
+     cursor: pointer;
+   }
+   .right-section>p{
+     color: #283338;;
+     cursor: pointer;
+     /* border: 2px solid red; */
+   }
+   .right-section>p>a:hover{
+    color: #ff763f;
+   }
+
+   .right-section>button{
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ff763f;
+    border-radius: 10px;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    margin-top:2px;
+    color: #ff763f;
+    /* border: 2px solid green; */
+   }
+   
+   .right-section>button>a{
+    color: orange;
+   }
+   .right-section>button:hover{
+     background-color: #fbfbfb;
+   }
+
+   hr{
+    width: 90%;
+    margin: auto;
+   }
+
+   h6{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #ff763f;
+    font-size: 1.41em;
+    line-height: 1.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+
+    
+   }
+
+   h2{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4e53;
+    font-size: 2.74em;
+    line-height: 1.3em;
+   }
+   .para{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 90px;
+   }
+   p {
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 1.125em;
+    line-height: 1.5em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+img{
+    margin-left: 100px;
+    width: 85%;
+    height: 700px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+/* .affiliate */
+
+h5{
+    margin-top: -25px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4e53;
+    font-size: 1.41em;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: normal;
+    text-transform: none;
+    text-align: center;
+
+}
+.affiliate{
+  width: 100%;
+  height: 100px;
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 130px;
+
+}
+
+.affiliate>button{
+  padding: 15px 80px;
+  color: #ff763f;
+  background-color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid#ff763f;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+
+}
+.affiliate>button:hover{
+  background-color: #f8f8f8;
+}
+
+  /* new footer  */
+  .main-footer{
+  margin-top: 80px;
+  width: 100%;
+  height: 680px;
+  border: 1px solid #4f4e53;
+  background-color: #4f4e53;
+}
+.main-footer>.f-icon{
+  margin-top: 50px;
+  width: 100%;
+  height: 40px;
+  /* border: 2px solid black; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#o,#n,#e,#s{
+  width: 40px;
+  height: 40px;
+  /* border: 2px solid red; */
+}
+#o,#n,#e,#s:hover{
+  cursor: pointer;
+}
+
+.f-logo{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.f-logo>img{
+  width: 200px;
+  height: 90px;
+}
+.f-logo>img:hover{
+  cursor: pointer;
+}
+#f-hr{
+  margin-top: 50px;
+
+}
+  
+       /* bottom fotter  */
+
+       .bottom-fotter{
+  margin: auto;
+  margin-top: 40px;
+  width: 90%;
+  height: 250px;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.footer-logo>img{
+width: 450px;
+height: 100px;
+/* border: 2px solid red; */
+margin-left: -69px;
+}
+
+.first,.second,.third{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  
+}
+
+.first>ul>li{
+list-style-type: none;  
+font-size: 17px;
+  /* border: 2px solid red; */
+  height: 40px;
+}
+.second>ul>li{
+  list-style-type: none;  
+  font-size: 17px;
+    /* border: 2px solid red; */
+    height: 40px;
+  }
+.third>ul>li{
+  list-style-type: none;  
+  font-size: 17px;
+    /* border: 2px solid red; */
+    height: 40px;
+  }
+  .first>ul>li>a:hover{
+    cursor: pointer;
+    color: #ff763f;
+  }
+  .second>ul>li>a:hover{
+    cursor: pointer;
+    color: #ff763f;;
+  }
+  .third>ul>li>a:hover{
+    cursor: pointer;
+    color: #ff763f;;
+  }
+
+    .bottom{
+     
+      width: 90%;
+      margin: auto;
+      height: 100px;
+      /* border: 2px solid red; */
+      text-align: center;
+    }
+    .bottom>p{
+      margin-top: 60px;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="contact-section">
+        <div class="left-section" >
+          <a href="index.html"><img src="carelogo.png" alt=""></a>
+        </div>
+        <div class="right-section">
+          <p><a href="">Products</a></p>
+          <p><a href="support.html">Support</a> </p>
+          <p><a href="">Blog</a></p>
+          <p><a href="">Forum</a></p>
+          <p><a href="">About</a></p>
+          <button><a href="login.html">Log In</a></button>
+         </div>
+       </div>
+
+       <hr>
+
+       <h6>Cronometer</h6>
+        <h2>About the Company</h2>
+        <div class="para">
+            <p>Cronometer is the most accurate, comprehensive nutrition tracking app on earth. Unlike other apps on the market, our nutritional data <br>
+                 is curated from verified, accurate sources. We aim to provide a complete solution – no matter what diet you choose to be on.</p>
+                
+                 <p>Our CEO, Aaron Davidson, built Cronometer as a side project in 2005. He was following the CRON diet (Calorie Restriction with Optimal Nutrition) and being the nutrition nerd/software developer that he is, decided to build an app to track his diet. Thus, Cronometer was born. It was several years later before he came to the conclusion that maybe he was onto something and quit his six-figure corporate job to focus on improving Cronometer.</p>
+            
+                 <p>There are now over 5 million users who are happy he did.</p>
+                 
+                 <p>Cronometer's success has hinged entirely on positive word-of-mouth from its users. The company is still – and plans to continue being – a bootstrap startup to this day.</p>
+
+        </div>
+
+        <div class="img">
+            <img src="https://cdn1.cronometer.com/2021/landing/cronometer-staff-3-p-1600.jpeg" alt="">
+        </div>
+
+        <h6>Cronometer</h6>
+        <h2>Who We Are</h2>
+
+        <div class="para">
+            <p>While our staff spans the globe our headquarters is based in the small-town of Revelstoke, British Columbia, Canada. Revelstoke is a health-centric mountain town brimming with endless options for staying active and a growing tech community – the perfect combination to call home.</p>
+            <p>We are an eclectic mix of web developers, designers, nutrition scientists, business majors and personal trainers brought together by a love of nutrition. While our company has grown our mission and values have remained the same; we believe full spectrum nutrition is the best way to understand your diet’s effect on your health. We also believe in empowering everyone by ensuring they have access to accurate and comprehensive data to make informed decisions.</p>
+            <p>Our goal is to build the best software for people and professionals to manage their nutrition. And we have the passion to make that happen; amazing data paired with awesome customer support truly are the Cronometer difference.</p>
+            <p>If you have interest in your personal nutrition or working with your client’s nutrition check us out!</p>
+            <p>Have questions? We would love to hear from you. Email us at: support@cronometer.com</p>
+        </div>
+
+        <hr>
+
+        <div class="affiliate">
+            <h5>Help us spread the good word about nutrition and become an affiliate.</h5>
+            <button>Become an Affiliate</button>
+          </div>
+
+
+           <!-- Footer bar -->
+
+           <div class="main-footer">
+            <div class="f-icon">
+              <img id="o" src="https://cdn1.cronometer.com/2021/landing/social_instagram-icon.png" alt="">
+              <img id="n" src="https://cdn1.cronometer.com/2021/landing/social_facebook-icon.png" alt="">
+              <img id="e" src="https://cdn1.cronometer.com/2021/landing/social_twitter-icon.png" alt="">
+              <img id="s" src="https://cdn1.cronometer.com/2021/landing/social_youtube-icon.png" alt="">
+            </div>
+            <div class="f-logo">
+              <img src="https://cdn1.cronometer.com/2021/landing/ios-icon.svg" alt="">
+              <img src="https://cdn1.cronometer.com/2021/landing/android-icon.svg" alt="">
+            </div>
+            <hr id="f-hr">
+
+             <!-- bottom-fotter -->
+      
+      <div class="bottom-fotter">
+        <div class="footer-logo">
+          <img src="grey.png" alt="">
+        </div>
+        <div class="first">
+          <ul>
+            <li><strong>Truecare</strong></li>
+            <li><a>For Individuals</a></li>
+            <li><a>For professionals</a></li>
+            <li><a>Privacy</a></li>
+            <li><a>Terms</a></li>
+          </ul>
+        </div>
+        <div class="second">
+          <ul>
+            <li><strong>The Company</strong></li>
+            <li><a>About Us</a></li>
+            <li><a >Crono Blog</a></li>
+            <li><a>Crono Forum</a></li>
+            <li><a>Jobs</a></li>
+            <li><a>Support</a></li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li><strong>Partners & Affiliates</strong></li>
+            <li><a>Affilate Program</a></li>
+            <li><a>Media Kit</a></li>
+          </ul>
+        </div>
+      </div>
+        <div class="bottom">
+          <p>Copyright © 2011-2022 <br>
+            All rights reserved</p>
+          </div>
+          </div>
+</body> 
+</html>
