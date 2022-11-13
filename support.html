@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg" type="image/icon type">
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous">
+</script>
+    <style>
+        body{
+           width: 96%;
+        }
+        .top-bar{
+            width: 90%;
+            height: 60px;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-between;
+        }
+        .first{
+            width: 150px;
+            height: 60px;
+            /* border: 1px solid black; */
+            margin-left: 120px;
+        }
+        .first>a>img{
+            width: 150px;
+            height: 50px;
+            margin-top: 10px;
+        }
+        .second{
+            width: 150px;
+            height: 60px;
+            /* border: 1px solid black; */
+            color:  #ff763f;
+            margin-right: 120px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        /* Search bar  */
+    #f{
+        background-image: url(bgimgg.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+}
+
+
+.box{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background:white;
+    width: 700px;
+    height: 20px;
+    padding: 15px;
+    border-radius:70px ;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid orange;
+}
+
+#input{
+    width: 670px;
+    height: 25px;
+    font-size: 18px;
+    border: none;
+
+}
+
+/* services */
+
+.services{
+    width: 100%;
+    height: 130px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+.services>div:nth-child(1){
+    width: 420px;
+    height: 120px;
+    border: 1px solid #ff763f;
+    border-radius: 4px;
+}
+.services>div:nth-child(2){
+    width: 420px;
+    height: 120px;
+    border: 1px solid #ff763f;
+    border-radius: 4px;
+}
+.services>div:nth-child(3){
+    width: 420px;
+    height: 120px;
+    border: 1px solid #ff763f;
+    border-radius: 4px;
+}
+h4{
+    margin-left: 40px;
+    text-align: center;
+}
+P{
+    margin-left: 40px;
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid orange;
+    vertical-align: top;
+    padding: calc(.375rem - 3px) 60px calc(.375rem - 3px) 12px;
+    background-color: #00000000;
+    font-size: 17px;
+    letter-spacing: 0.16px;
+    min-height: 32px;
+    line-height: 1.29;
+    color: orange;
+    font-weight: 400;
+    outline: none;
+    border-radius: 1px;
+    /* border: 2px solid red; */
+    margin-left: 40px;
+}
+button:hover {
+     background-color: orange;
+    color: #fff;
+ }
+     
+ .faq>button{
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 44px;
+    width: 96%;
+    height: 120px;
+ }
+ hr{
+    margin-top: 80px;
+    margin-left: 40px;
+    width: 94%;
+ }
+ #hr{
+     width: 102%;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+ }
+    
+ .truecare>p{
+    color: grey;
+    text-align:left;
+ }
+
+ 
+.stickybtn{ 
+    width: 80px;
+    padding: 5px 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background-color: #15883e;
+    height: 48px;
+    outline: none;
+    margin-top: 70px;
+}
+.stickybtn>button{
+    color: white;
+    border: none;
+    margin-left: 0px;
+    margin-top: 7px;
+}
+
+    .stickybtn>button:hover{
+    background-color: #1db954;
+}
+                
+
+    </style>
+
+    <title>true care</title>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="first">
+            <a href="index.html"><img src="scare.png" alt=""></a>
+        </div>
+        <div class="second">
+            <p>Submit a request</p>
+        </div>
+    </div>
+
+    <!-- Search bar -->
+    <div id="f">
+        <div class="box">
+            <div class="searchbtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <input type="text" id="input" placeholder="search">
+        </div>
+    </div>
+
+    <!-- Services  -->
+
+    <div class="services">
+        <button>
+            <h4>Web Version</h4>
+            <p>User Manual for Truecare on web</p>
+        </button>
+        <button>
+            <h4>Mobile App</h4>
+            <p>User Manual for the Truecare Mobile App</p>
+        </button>
+        <button>
+            <h4>Professional Version</h4>
+            <p>User Manual for Truecare Pro</p>
+        </button>
+    </button>
+    </div>
+
+    <div class="faq">
+        <button>
+        <h4>FAQ</h4>
+        <p>Truecare Frequently Asked Questions</p>
+        </button>
+    </div>
+    <hr>
+    <hr id="hr">
+    <div class="truecare"><p>Truecare</p></div>
+    <div class="stickybtn">
+        <button>Support </button>
+    </div>
+</body>
+</html>
