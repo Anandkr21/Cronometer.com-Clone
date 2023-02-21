@@ -50,7 +50,9 @@ Users can click on navbar to get more information about website. User can regist
 
 
 ## 🛠 Tech Stack
-Javascript, HTML, CSS...
+- Javascript
+- HTML
+- CSS
 
 
 
