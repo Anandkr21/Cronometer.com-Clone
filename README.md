@@ -54,6 +54,8 @@ Users can click on navbar to get more information about website. User can regist
 - CSS
 - Javascript
 
+## Team Size
+- Individual
 
 
 
@@ -62,7 +64,7 @@ Users can click on navbar to get more information about website. User can regist
 If you have any feedback, please reach out to me at anandkumargupta.akg15@gmail.com
 
 
-## Authors
+## Author
 
 - [@anandkumar](https://github.com/Anandkr21)
 
